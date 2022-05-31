@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 1;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,);
+    gap: 25px;
+    max-width: 1000px;
+    min-width: 250px;
+}
+.main-profile{
+    grid-row: 1 / span 2; 
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+}
+.profile-top{
+    padding-bottom: 50px;
+    background-color: hsl(246, 80%, 60%);
+    padding: 25px;
+    padding-right: 60px;
+    border-radius: 15px;
+}
+.profile-top h5{
+    font-size: 12px;
+    padding-bottom:12px;
+    font-weight: 500;
+    color: hsl(236, 100%, 87%);
+}
+.profile-top h3{
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.profile-top img{
+    width: 65px;
+    height: 65px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.profile-bottom{
+    padding: 15px 25px;
+}
+.profile-bottom p{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.sections{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    padding: 20px 0;
+    padding-left: 25px;
+    padding-right: 20px;
+    width: 175px;
+    height: 130px;
+    transform: translate(0%, 41%);
+    z-index: 0;
+
+}
+.work{
+    position: relative;
+
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 15px;
+
+}
+.play{
+    position: relative;
+
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 15px;
+}
+.study{
+    position: relative;
+
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 15px;
+}
+.exercise{
+    position: relative;
+
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 15px;
+}
+.social{
+    position: relative;
+    background-color: hsl(264, 64%, 52%)    ;
+    border-radius: 15px;
+}
+.selfcare{
+    position: relative;
+
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 15px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top p{
+    font-size: 12px;
+}
+.sections .hours{
+    font-size: 30px;
+    padding-bottom: 4px;
+    font-weight: 300;
+}
+.sections .last{
+    color: hsl(236, 100%, 87%);
+    font-size: 8px;
+}
+.sections p{
+    margin: 5px 0;   
+}
+.icon{
+    position: absolute;
+    width: 40px;
+    bottom: 8.5rem;
+    right: 0.5rem;
+}
+.exercise .icon{
+    bottom: 8.75rem;
+}
+.social .icon{
+    bottom: 8rem;
+}
